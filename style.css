@@ -1,0 +1,48 @@
+body {
+  background: #BA55D3;
+}
+
+#imagem {
+  width: 100%;
+}
+
+.princial {
+  padding: 30px;
+}
+
+.titulo-principal{
+  padding-left: 20px;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#paragrafo {
+  font-size: 25px;
+}
+
+em strong {
+  color: #FF0000;
+}
+
+video {
+  width: 320px ;
+  heigth: 240px;
+}
+
+.aprendizados {
+  background: #DDA0DD;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  whidth: 20%;
+  margin-right: 15%;
+}
