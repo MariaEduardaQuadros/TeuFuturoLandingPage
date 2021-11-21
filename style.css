@@ -1,48 +1,141 @@
-body {
-  background: #BA55D3;
+header {
+	background: #BA55D3;
+	padding: 20px 0;
 }
 
-#imagem {
-  width: 100%;
+.caixa {
+	position: relative;
+	width: 100%;
+	margin:0 auto;
 }
 
-.princial {
-  padding: 30px;
+nav {
+	position: absolute;
+	top: 17;
+	right: 0;
 }
 
-.titulo-principal{
-  padding-left: 20px;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-.titulo-centralizado {
-  text-align: center;
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
 }
 
-p {
-  text-align: center;
+nav a:hover {
+	color: #4B0082;
 }
 
-#paragrafo {
-  font-size: 25px;
+.produtos {
+	width: 1700;
+	margin: 0 auto;
+	padding: 150px 0;
 }
 
-em strong {
-  color: #FF0000;
+.produtos li {
+	display: inline-block;
+	text-align: left;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 20px;
 }
 
-video {
-  width: 320px ;
-  heigth: 240px;
+.produtos li:hover {
+	border-color: #FF010A;
 }
 
-.aprendizados {
-  background: #DDA0DD;
-  padding: 20px;
+.produtos li:hover h2 {
+	font-size: 28px;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: top;
-  whidth: 20%;
-  margin-right: 15%;
+.produtos h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.nome-produto {
+	text-transform: uppercase;
+}
+
+.produto-descrição {
+	font-size: 20px;
+}
+
+.produto-preço {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+footer {
+	background: #000000;
+	color: #E1E7FA;
+	padding: 100px 0;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-size: 21px;
+	padding: 20px 70px;
+	margin: 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrão {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 25px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: purple;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: MediumOrchid;
+	transform: scale(1.2);
+}
+
+.rodape {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
 }
