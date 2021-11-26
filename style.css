@@ -55,16 +55,17 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 28px;
+	font-size: 27px;
 }
 
 .produtos h2 {
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
 .nome-produto {
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .produto-descrição {
