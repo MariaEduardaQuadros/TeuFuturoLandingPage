@@ -1,3 +1,8 @@
+/*css dos produtos */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BA55D3;
 	padding: 20px 0;
@@ -92,6 +97,7 @@ footer p {
 	margin: 0;
 }
 
+/*css do contato */
 main {
 	width: 1450px;
 	margin: 0 auto;
@@ -137,8 +143,66 @@ form label, form legend {
 	transform: scale(1.2);
 }
 
+h2 {
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 1em 0 2em;
+	text-align: center;
+}
+
 .rodape {
 	text-align: center;
 	font-size: 22px;
 	font-weight: bold;
+}
+
+/*css da página inial */
+.design{
+  width: 100%;
+}
+
+main {
+	width: 100%
+}
+
+.principal {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.titulo {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	margin: 0 0 1em;
+}
+
+video {
+  width: 320px;
+}
+
+.final {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
