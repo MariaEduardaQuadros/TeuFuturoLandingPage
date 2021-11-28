@@ -17,7 +17,7 @@ nav {
 
 nav li {
 	display: inline;
-  margin: 0 0 0 15px;
+	margin: 0 0 0 15px;
 }
 
 nav a {
@@ -33,7 +33,6 @@ nav a:hover {
 }
 
 .design {
-  padding-top: 50px;
   width: 100%;
 }
 
@@ -62,18 +61,11 @@ em strong {
 }
 
 video {
-  width: 320px ;
-  heigth: 240px;
+  width: 320px;
 }
 
-.aprendizados {
-  background: #DDA0DD;
-  padding: 20px;
-}
-
-.curso {
-  display: inline-block;
-  vertical-align: top;
-  whidth: 20%;
-  margin-right: 15%;
+.final {
+	font-size: 19px;
+	color: #BA55D3;
+	font-weight: bold;
 }
