@@ -95,10 +95,11 @@ footer p {
 main {
 	width: 1450px;
 	margin: 0 auto;
+	background: #D8BFD8;
 }
 
 form {
-	margin: 40px 0;
+	margin-left: 130px;
 }
 
 form label, form legend {

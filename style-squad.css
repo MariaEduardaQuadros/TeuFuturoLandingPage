@@ -40,6 +40,7 @@ main {
   font-size: 35px;
   text-align: center;
   font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .imagem {
@@ -58,10 +59,20 @@ main {
 
 .descricao {
 	  width: 30%;
+		display: inline-block;
+		margin-left: 140px;
+		margin-top: 10px;
+		margin-bottom: 40px;
+		font-size: 18px;
 }
 
 .descricao-dois {
 	width: 30%;
+	display: inline-block;
+	margin-left: 200px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-size: 18px;
 }
 
 footer {
