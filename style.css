@@ -242,6 +242,12 @@ header {
 	margin-left: 220px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagem:hover {
+	opacity: 0.3;
 }
 
 .imagem-dois {
@@ -249,6 +255,12 @@ header {
 	margin-left: 420px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagem-dois:hover {
+	opacity: 0.3;
 }
 
 .descricao {
