@@ -136,8 +136,28 @@ h2 {
 .produto-preço {
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 15px;
+	margin-top: 25px;
 	text-align: center;
+}
+
+.comprar-agora {
+	width: 40%;
+	padding: 15px 0;
+	background: #8605EB;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+	margin-left: 160px;
+	margin-top: 50px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.comprar-agora:hover {
+	background: #3911EB;
 }
 
 footer p {
