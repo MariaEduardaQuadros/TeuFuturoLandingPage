@@ -152,12 +152,13 @@ h2 {
 	border-radius: 3px;
 	margin-left: 160px;
 	margin-top: 50px;
-	transition: 1s background;
+	transition: 1s all;
 	cursor: pointer;
 }
 
 .comprar-agora:hover {
 	background: #3911EB;
+	transform: scale(1.2);
 }
 
 footer p {
