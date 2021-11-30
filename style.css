@@ -129,6 +129,10 @@ h2 {
 	text-align: center;
 }
 
+.foto {
+	margin-left: 50px;
+}
+
 .produto-descrição {
 	font-size: 20px;
 }
@@ -285,12 +289,18 @@ header {
 }
 
 .descricao {
-	  width: 30%;
-		display: inline-block;
-		margin-left: 140px;
-		margin-top: 10px;
-		margin-bottom: 40px;
-		font-size: 18px;
+	width: 30%;
+	display: inline-block;
+	margin-left: 140px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+.squad a {
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 0 0 15px;
 }
 
 .descricao-dois {
@@ -300,6 +310,10 @@ header {
 	margin-top: 10px;
 	margin-bottom: 40px;
 	font-size: 18px;
+}
+
+.descricao-dois a {
+	text-decoration: none;
 }
 
 footer {
