@@ -66,17 +66,18 @@ nav a:hover {
 	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
-	margin: 0 0 1em;
+	margin: 20px;
 }
 
 .subtitulo {
-	font-size: 22px;
+	font-size: 20px;
 	padding-top: 2px;
+	margin: 20px;
 }
 
 .intro {
 	font-size: 18px;
-	padding-top: 20px;
+	margin: 20px;
 }
 
 video {
@@ -490,50 +491,39 @@ h2 {
 .curso {
   display: inline-block;
 	vertical-align: top;
-  width: 30%;
-  margin: 20px;
+  width: 40%;
+  margin: 40px;
   font-size: 20px;
-}
-
- .mentores{
-  text-align: center;
-  font-size: 27px;
 }
 
 .aprendizados {
   display: inline-block;
-  width: 400px;
+  width: 640px;
 }
 
 .tempo {
-	font-size: 20px;
-  text-align: center;
-	background: #BA55D3;
-	width: 30%;
-	vertical-align: top;
-	margin: 20px;
-	padding: 30px 0px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius:20px;
+		display: inline-block;
+		width: 30%;
+		font-size: 20px;
+		padding: 20px;
+		margin-left: 150px;
+	  text-align: center;
+		background: #BA55D3;
+		vertical-align: top;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+		border-radius:20px;
 }
 
-.tempo-dois {
-	font-size: 20px;
-	text-align: center;
-	background: #BA55D3;
-	width: 30%;
-	vertical-align: top;
-	margin: 20px;
-	padding: 30px 0px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius:20px;
+.tempo:hover {
+	background-color: #DDA0DD;
+	transition: 0.5s;
+	opacity: 0.7;
 }
 
 .link {
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 	margin: 20px;
 	font-weight: bold;
 }
@@ -541,30 +531,29 @@ h2 {
 .metodologia {
 	text-align: center;
 	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .trabalho {
+	display: flex;
+	align-items: center;
 	font-size: 27px;
 	color: #4B0082;
-	text-align: center;
+	padding-left: 250px;
 	font-weight: bold;
   margin-top: 23px;
-}
-
-.trabalho-texto {
-	display: inline-block;
-	margin: 20px;
-	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 #rotativo {
+		text-align: center;
 		display: inline-block;
-		margin: 20px;
-    width: 80%;
+    width: 100%;
     max-width: 450px;
     height: 25vw;
     max-height: 250px;
-    position: relative;
+		position: relative;
 }
 
 #rotativo img {
@@ -574,7 +563,7 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity 800ms;
+    transition: opacity 200ms;
 }
 
 #rotativo img.selected {
@@ -582,18 +571,24 @@ h2 {
     opacity: 1;
 }
 
+.trabalho-texto {
+	display: inline-block;
+	margin: 20px;
+	font-size: 20px;
+}
+
 .finalizaçao {
 	margin-top:40px;
 	text-align: center;
-	font-size: 19px;
+	font-size: 25px;
 	color: #4B0082;
 }
 
 .desconto {
 	font-weight: bold;
 	text-align: center;
-	color: #FF0000;
-	font-size: 27px;
+	color: #40E0D0;
+	font-size: 20px;
   margin-top: 25px;
 }
 
@@ -601,6 +596,7 @@ h2 {
 	margin-top:40px;
 	font-weight: bold;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 iframe {
@@ -612,9 +608,10 @@ iframe {
 
 .oferta {
 	font-weight: bold;
-	color: #FF0000;
+	color: #40E0D0;
 	text-align: center;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 .footer-design {

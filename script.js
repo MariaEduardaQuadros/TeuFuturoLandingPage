@@ -100,29 +100,3 @@ function growProgressBar(percentage_width){
     var bar = document.getElementById("progress_bar");
     bar.style.width = percentage_width;
 }
-
-/*imagem squad*/
-let time = 5000,
-    currentImageIndex = 0,
-    images = document
-      .querySelectorAll("#rotativo img")
-    max = images.length;
-
-function nextImage() {
-    images[currentImageIndex]
-          .classList.remove("selected")
-          currentImageIndex++
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
-
-    images[currentImageIndex]
-        .classList.add("selected")
-}
-
-function start() {
-    setInterval(() => {
-        nextImage()
-    }, time)
-}
-
-window.addEventListener("load", start)
